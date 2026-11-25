@@ -97,7 +97,7 @@ SUB=sorted({t for b in BOOKS for t in b["topics"]})
 FACTS=[("Teaching","Mathematics teacher"),("Leadership","Head of Department roles"),("Author","2025 Edition textbook"),("Support","Tutoring and school enquiries")]
 P["index.html"]=page("","%s | Mathematics Educator & Author"%NAME,"Mathematics educator and textbook author. Explore Essentials of Applied Mathematics in Statistics and Numerical Methods, request tutoring, or enquire for your school.",
 f'''<!--full--><section class="hero w"><div class="ht"><h1>Mathematics taught in the classroom, now written for every learner.</h1>
-<p class="lead">{NAME} is a mathematics teacher with Head of Department experience and the author of <i>Essentials of Applied Mathematics in Statistics and Numerical Methods</i>, 2025 Edition.</p>
+<p class="lead">{NAME} is a mathematics teacher with Head of Department experience and the author of <i>Essentials of Applied Mathematics in Statistics and Numerical Methods</i>, 2026 Edition.</p>
 <div class="row">{btn("books/","Explore Publications",g=True)}{btn("about/","Meet Mr. Kam",True)}</div></div>
 <div class="ha">{slot(r,"portrait","Professional portrait to be supplied","Portrait of Mr. Kamulegeya Mubarak Kiggundu","pt",True)}
 <a class="mini" href="{bu}">{cover(r,b0,"sm")}<span><b>Featured publication</b>{E(b0["title"])}</span></a></div></section>
@@ -109,7 +109,7 @@ f'''<!--full--><section class="hero w"><div class="ht"><h1>Mathematics taught in
 <div class="shelf">{"".join(tile(b,r) for b in BOOKS)}</div><h3>Browse by subject</h3>{subj(r)}<p class="note">New titles appear here only once each is confirmed.</p></section>
 <section class="sec w auth"><div>{slot(r,"portrait-about","Professional portrait to be supplied","Portrait of Mr. Kamulegeya Mubarak Kiggundu","pt")}</div><div><h2>Meet the author</h2>
 <p class="lead">A mathematics educator whose textbook comes out of classroom teaching and department leadership.</p>
-<p>Mr. Kamulegeya is a mathematics teacher who has held Head of Department roles. His 2025 book names teaching and leadership experience at Buddo Secondary School, Kibuli Secondary School and Lubiri Secondary School.</p>
+<p>Mr. Kamulegeya is a mathematics teacher who has held Head of Department roles. His 2026 book names teaching and leadership experience at Buddo Secondary School, Kibuli Secondary School and Lubiri Secondary School.</p>
 <a class="mini start" href="{bu}">{cover(r,b0,"sm")}<span><b>Start with</b>{E(b0["title"])}</span></a><div class="row">{btn("about/","Read the full profile")}</div></div></section>
 <section class="sec w" id="learn"><h2>Learning and tutoring</h2><div class="lg">
 <div class="lp l1 dk"><h3>Mathematics tutoring</h3><p>One-on-one, group, exam-preparation and online sessions. Availability is confirmed on enquiry.</p>{btn("tutoring/","See tutoring options",g=True)}</div>
